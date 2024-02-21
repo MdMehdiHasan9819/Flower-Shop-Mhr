@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+/* Common css */
+p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-family: Lato;
+font-weight: 400;
+line-height: 30px;
+word-wrap: break-word
+}
+
+.section-heading{
+max-width: 500px;
+text-align: center;
+margin: 50px auto;
+
+}
+.section-heading h2{
+    color: #272727;
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 16px;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: all 2s;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+header{
+    background-color: #E554731A;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text *{
+    margin-bottom: 30px;
+    max-width: 525px;
+}
+.banner .banner-text h1{
+color: #272727;
+font-size: 60px;
+font-family: Lato;
+font-weight: 800;
+word-wrap: break-word
+}
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* featured section css */
+#featured{
+padding: 80px 0px;
+}
+.featured-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+.featured-content .flower .flower-img{
+    background-color: #e2627e;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0;
+    height: 420px;
+    display: flex;
+    align-items: end;
+}
+.flower-img img{
+    width: 100%;
+}
+.featured-content .flower .pink{
+    background-color: #A7216226;
+}
+.featured-content .flower .green{
+    background-color: #0597A026;
+}
+.featured-content .flower .blue{
+    background-color: #477D1126;
+}
+.flower p{
+text-align: center;
+margin-top: 25px;
+color: #272727;
+font-size: 24px;
+font-weight: 700;
+text-decoration: underline;
+line-height: 35px;
+word-wrap: break-word
+}
